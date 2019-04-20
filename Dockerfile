@@ -16,7 +16,7 @@ RUN rm /usr/bin/python
 # python must be pointing to python3.6
 RUN ln -s /usr/bin/python3.6 /usr/bin/python
 
-MAINTAINER Saurabh Kulkarni
+MAINTAINER saurabh9934
 ADD . /code
 WORKDIR /code
 RUN pip install -r requirements.txt
